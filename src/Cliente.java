@@ -25,7 +25,7 @@ public class Cliente {
 	}
 	@Override
 	public String toString() {
-		return "Datos cliente: nif=" + nif + ", Nombre Completo=" + " " + nombreCompleto + ", " + vehiculo;
+		return "Cliente: nif=" + nif + ", Nombre Completo=" + " " + nombreCompleto + ", " + vehiculo;
 	}
 	
 }

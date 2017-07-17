@@ -1,8 +1,20 @@
-import java.util.List;
+//import java.util.List;
 
 public class Garaje {
 	
-	private List<Plaza> plazas;
+	private Plaza[] plazas;
+
+	public Plaza[] getPlazas() {
+		return plazas;
+	}
+
+	public void setPlazas(Plaza[] plazas) {
+		this.plazas = plazas;
+	}
+	
+	
+	
+/*	private List<Plaza> plazas;
 
 	public List<Plaza> getPlazas() {
 		return plazas;
@@ -16,6 +28,6 @@ public class Garaje {
 	public String toString() {
 		return "Garaje con "+ plazas.size() + " plazas \n" + plazas ;
 	}
-	
+	*/
 
 }
