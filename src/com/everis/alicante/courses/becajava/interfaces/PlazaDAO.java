@@ -10,7 +10,7 @@ public interface PlazaDAO {
 	
 	List<Plaza> readPlazas() throws IOException;
 	
-	void write(List<Plaza> plazas);
+	void createPlaza(List<Plaza> plazas);
 	
 	
 	
